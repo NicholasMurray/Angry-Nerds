@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN”   “http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”>
+<head>
+<title>Html Typing Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body onload="loadBody();">
+
+<div class="width_500 center">
+	<img src="images/angrynerds.png" alt="Angry Nerds" title="Angry Nerds" width="500" height="200" />
+</div>
+
+
+<div>
+		<div id="button_list_container" class="center width_1080">
+
+			<ul id='button_list' class="center width_1080">
+				<li id="level0" class="button1 grey_button lesson_button_width" onclick="prepareLesson(0);" title="Click to Start/Stop level 1">
+					<span id="level0LockIcon" name="level0LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7 "><1 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level0Star1" class="float_left silver_star"></div>
+						<div id="level0Star2" class="float_left silver_star"></div>
+						<div id="level0Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore0' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level1" class="button1 grey_button lesson_button_width" onclick="prepareLesson(1);" title="Click to Start/Stop level 2">
+					<span id="level1LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><2 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level1Star1" class="float_left silver_star"></div>
+						<div id="level1Star2" class="float_left silver_star"></div>
+						<div id="level1Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore1' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level2" class="button1 grey_button lesson_button_width" onclick="prepareLesson(2);" title="Click to Start/Stop level 3">
+					<span id="level2LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><3 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level2Star1" class="float_left silver_star"></div>
+						<div id="level2Star2" class="float_left silver_star"></div>
+						<div id="level2Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore2' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level3" class="button1 grey_button lesson_button_width" onclick="prepareLesson(3);" title="Click to Start/Stop level 4">
+					<span id="level3LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><4 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level3Star1" class="float_left silver_star"></div>
+						<div id="level3Star2" class="float_left silver_star"></div>
+						<div id="level3Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore3' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level4" class="button1 grey_button lesson_button_width" onclick="prepareLesson(4);" title="Click to Start/Stop level 5">
+					<span id="level4LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><5 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level4Star1" class="float_left silver_star"></div>
+						<div id="level4Star2" class="float_left silver_star"></div>
+						<div id="level4Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore4' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level5" class="button1 grey_button lesson_button_width" onclick="prepareLesson(5);" title="Click to Start/Stop level 6">
+					<span id="level5LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><6 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level5Star1" class="float_left silver_star"></div>
+						<div id="level5Star2" class="float_left silver_star"></div>
+						<div id="level5Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore5' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level6" class="button1 grey_button lesson_button_width" onclick="prepareLesson(6);" title="Click to Start/Stop level 7">
+					<span id="level6LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><7 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level6Star1" class="float_left silver_star"></div>
+						<div id="level6Star2" class="float_left silver_star"></div>
+						<div id="level6Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore6' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level7" class="button1 grey_button lesson_button_width" onclick="prepareLesson(7);" title="Click to Start/Stop level 8">
+					<span id="level7LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><8 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level7Star1" class="float_left silver_star"></div>
+						<div id="level7Star2" class="float_left silver_star"></div>
+						<div id="level7Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore7' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level8" class="button1 grey_button lesson_button_width" onclick="prepareLesson(8);" title="Click to Start/Stop level 9">
+					<span id="level8LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><9 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level8Star1" class="float_left silver_star"></div>
+						<div id="level8Star2" class="float_left silver_star"></div>
+						<div id="level8Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore8' class="score center width_30" title="High Score"></div>
+				</li>
+				<li id="level9" class="button1 grey_button lesson_button_width" onclick="prepareLesson(9);" title="Click to Start/Stop level 10">
+					<span id="level9LockIcon" class="ui-icon ui-icon-locked float_left margin_top_7"></span>
+					<span class="text float_left button_tag_font margin_top_7"><10 /></span>
+					<div class="float_left clear_both margin_top_2">
+						<div id="level9Star1" class="float_left silver_star"></div>
+						<div id="level9Star2" class="float_left silver_star"></div>
+						<div id="level9Star3" class="float_left silver_star"></div>
+					</div>
+					<div id='levelscore9' class="score center width_30" title="High Score"></div>
+				</li>
+
+				<li id="save" class="button1 grey_button action_button" onclick="saveLessonScoresAndStatus();" title="Click to Save">
+					<span class="ui-icon ui-icon-save float_left margin_top_7"></span>
+					<span class="text float_left bold_font margin_top_7"></span>
+				</li>
+				<li id="reset" class="button1 grey_button action_button" onclick="resetLessonScoresAndLevels();" title="Click to Reset your scores">
+					<span class="ui-icon ui-icon-reset float_left margin_top_7"></span>
+					<span class="text float_left bold_font margin_top_7"></span>
+				</li>
+
+			</ul>
+	
+			<div id="lessonDescription" class="width_600 center">
+			</div>
+
+			<div id="promptcontainer" class="width_600 center">
+				<span id="promptfeedback">&nbsp;</span>
+				<span id="promptarea">&nbsp;</span>
+				<div id="promptletter">&nbsp;</div>
+				<div id="promptfollowup">&nbsp;</div>
+				<div id="promptall"></span>
+				<img height="30" src="images/pixel.gif" width="1" ><br />
+				<img height="20" src="images/pixel.gif" width="1" >
+			</div>
+
+			<div class="width_600 center">
+				<input id="entryfield" name="entryfield" size="30" maxlength="1000" class="width_600"  spellcheck="false"
+				onkeydown ="return entryKeyDown(event);" 
+				onkeypress="return entryKeyPress(event);" 
+				onkeyup   ="return entryKeyUp(event);" 
+				onblur    ="return entryBlur(event);" >
+			</div>
+
+		</div>
+		
+		<div id="keyboardcontainer" class="center width_600">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<img id=keyboard src="images/mackeyboard.png" name="keyboard" style="z-index: 0" width="600" height="300" /><br />			
+					</td>
+				</tr>
+			</table>
+			<img id=keyhalo style="display: none; position: absolute; z-index:1" src="images/keyhalo.png" width="37" height="37" />
+			<img id=spacebarhalo style="display: none; position: absolute; z-index:1" src="images/spacebarhalo.png" width="185" height="40" />
+		</div>
+
+		<ul id="save_reset_list" class="width_140 center">
+			
+		</ul>
+
+</div>
+
+<script language="javascript" type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/jquery-ui-1.8.22.custom.min.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/element.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+</html>
